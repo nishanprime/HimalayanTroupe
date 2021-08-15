@@ -1,0 +1,24 @@
+{
+  "name": "himalayantroupe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "data:import": "node server/seeder.js",
+    "data:destroy": "node server/seeder.js -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishanprime/HimalayanTroupe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishanprime/HimalayanTroupe/issues"
+  },
+  "homepage": "https://github.com/nishanprime/HimalayanTroupe#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}

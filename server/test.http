@@ -1,0 +1,21 @@
+# GET http://localhost:5000/todos HTTP/1.1
+
+# DELETE http://localhost:5000/todosdel/nishanthapadel HTTP/1.1
+
+POST http://localhost:5000/api/users/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "username":"john123",
+    "password":"12345",
+    "name":"John Doe",
+    "email":"john@gmail.com"
+}
+
+# GET http://localhost:5000/api/users/mytodos HTTP/1.1
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMTYxZTJmOWQ3ZTQ1YWFmOGQ0MzQ5MiIsImlhdCI6MTYyODgzOTUwMCwiZXhwIjoxNjMxNDMxNTAwfQ.PNZuux1TdJMQoEi6jXUNReb5shWvzYfOv24M-7EmrGo
+
+
+# DELETE http://localhost:5000/todos/6112c454bcfadb4a2f55432b  HTTP/1.1
+
+//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMTVlOGYyMTVhZGE4OTE5YzAwYTA3MSIsImlhdCI6MTYyODgzNzUyNywiZXhwIjoxNjMxNDI5NTI3fQ.zfdWlIrFughn_L89BEarCmbCbN2mJNl9MkYFbZiDduk
